@@ -1,16 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/index.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+	<link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
+  <header class="page-header">
     <div class="container">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi sunt cupiditate nam? Similique, ducimus ad?
+      <div class="d-flex">
+        <a href="#logo" aria-label="logo">
+          <img src="./images/logo.png" alt="logo" class="logo">
+        </a>
+        <nav class="main-nav">
+          <ul class="main-items">
+            <li class="main-items-list">
+              <a href="#home" class="main-items-link" aria-label="home">Home</a>
+            </li>
+            <li class="main-items-list">
+              <a href="#about us" class="main-items-link" aria-label="about us">About Us</a>
+            </li>
+            <li class="main-items-list">
+              <a href="#service" class="main-items-link" aria-label="service">Service</a>
+            </li>
+            <li class="main-items-list">
+              <a href="#blogs" class="main-items-link" aria-label="blogs">Blogs</a>
+            </li>            
+          </ul>
+        </nav>
+        <button class="header-button" aria-label="gift finder">GIFT FINDER</button>
+      </div>
     </div>
+  </header>
+  <main>
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-section-flex">
+          <div class="col-50">
+            <h1 class="text-h1">
+              Find a gift for your wife or girlfriend
+            </h1>
+            <p class="plain-text">Struggling to find a 
+              gift for your wife or girlfriend? No problem!
+            </p>
+            <button class="b-find-gift-now">FIND GIFT NOW</button>
+          </div>
+          <div class="col-50">
+            <img src="./images/man-woman.png" alt="main-photo" class="hero-img" aria-label="photo">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="we-work-section">
+      <div class="container">
+        <div class="we-work-flex">
+          <div class="img-we-work-container col-50">
+            <img src="./images/thanks-img.png" alt="thanks photo" class="img-thanks">
+          </div>
+          <div class="how-we-work-container col-50">
+            <h2 class="how-we-work-text">How we work</h2>
+            <p class="p-how-we-work">
+              We’ve actually already asked hundreds 
+              of women what they want, and made a database with the results.
+              All you have to do is take our short survey that only takes 
+              seconds, and our proprietary algorithm will match you with a 
+              few perfect gift options.
+            </p>
+            <button class="button-how-we-work-container" aria-label="learn more">LEARN MORE</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gifts-for-all-section">
+      <div class="container">
+        <h2 class="gift-for-all-text">Gift for all Occasions</h2>
+        <p class="p-try-our-web">"Try our web app to find the best gifts for all occasions" </p>
+        <div class="gifts-all-container-flex">
+          <div class="birthday-container col">
+            <img src="./images/happy-birthday.png" alt="birthday" class="birthday-img img-height ">
+            <h3 class="birthday-text pl-20 fs-20">Birthday</h3>
+            <div class="anchor-see-more">
+              <a href="#see more">See More></a>
+            </div>
+          </div>
+          <div class="anniversary-container col">
+            <img src="./images/good-wife.png" alt="good-wife" class="anniversary-img img-height ">
+            <h3 class="anniversary-text pl-20 fs-20">Anniversary</h3>
+            <div class="anchor-see-more">
+              <a href="#see more">See More></a>
+            </div>
+          </div>
+          <div class="valentaines-container col">
+            <img src="./images/kiss-me.png" alt="kiss-me" class="valentaines-img img-height ">
+            <h3 class="valentaines-text pl-20 fs-20">Valentaine's Day</h3>
+            <div class="anchor-see-more">
+              <a href="#see more">See More></a>
+            </div>
+          </div>
+          <div class="christmas-container col">
+            <img src="./images/christmas.png" alt="christmas" class="christmas-img img-height ">
+            <h3 class="christmas-text pl-20 fs-20">Christmas</h3>
+            <div class="anchor-see-more">
+              <a href="#see more">See More></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ready-to-get-started-section">
+      <div class="container">
+        <div class="ready-to-get-container-flex">
+          <div class="ready-signup-text-container">
+            <h3 class="ready-to-get-text">Ready to get started?</h3>
+            <p class="p-sugn-up-text">Sign up or contact us</p>
+          </div>
+          <div class="ready-signup-text-button">
+            <button class="button-find-gift">FIND GIFT NOW</button>
+            <button class="button-how-it-works">HOW IT WORKS</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>

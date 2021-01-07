@@ -344,6 +344,7 @@ img {
 	padding-top: 40px;
 } 
 .birthday-container:hover {
+	border: 1px solid  rgba(0, 0, 0, 0.05);
 	filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
 }
 .birthday-img {
@@ -357,6 +358,7 @@ img {
 	padding-top: 40px;
 } 
 .anniversary-container:hover {
+	border: 1px solid  rgba(0, 0, 0, 0.05);
 	filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
 }
 .anniversary-img {
@@ -370,6 +372,7 @@ img {
 	padding-top: 40px;
 } 
 .valentaines-container:hover {
+	border: 1px solid  rgba(0, 0, 0, 0.05);
 	filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
 }
 .a-tr {
@@ -386,6 +389,7 @@ img {
 	padding-top: 40px;
 } 
 .christmas-container:hover {
+	border: 1px solid  rgba(0, 0, 0, 0.05);
 	filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
 }
 .christmas-img {
@@ -795,9 +799,11 @@ img {
 	color: #000;
 }
 .database-container:hover {
+	border: 1px solid  rgba(0, 0, 0, 0.05);
 	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
 .artificial-container:hover {
+	border: 1px solid  rgba(0, 0, 0, 0.05);
 	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
 @media screen and (min-width: 576px) {

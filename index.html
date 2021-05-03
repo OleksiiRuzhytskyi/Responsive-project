@@ -4,9 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Responsive</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
   <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="./icomoon/style.css"> 
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+<link rel="manifest" href="favicons/site.webmanifest">
+<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
 </head>
 <body>
   <header class="page-header">
@@ -49,7 +56,26 @@
             <button class="b-find-gift-now">FIND GIFT NOW</button>
           </div>
           <div class="col-50">
-            <img src="./images/man-woman.png" alt="main-photo" class="hero-img" aria-label="photo">
+            <picture>
+              <source media="(min-width: 1140px)"
+              srcset="./images2/bg-1px.jpg, 
+              ./images2/bg-2px.jpg 2px"
+              type="image/jpg">
+              <source media="(min-width: 1140px)"
+              srcset="./images2/bg-1px.webp 1px, 
+              ./images2/bg-2px.webp 2px"
+              type="image/webp">
+
+              <source media="(min-width: 768px)"
+              srcset="./images2/bg-sm-1px.jpg 1px, 
+              ./images2/bg-sm-2px.jpg 2px"
+              type="image/jpg">
+              <source media="(min-width: 768px)"
+              srcset="./images2/bg-sm-1px.webp 1px, 
+              ./images2/bg-sm-2px.webp 2px"
+              type="image/webp">
+              <img src="./images2/bg-1px.jpg" alt="main-photo" class="hero-img" aria-label="photo">
+            </picture>
           </div>
         </div>
       </div>
